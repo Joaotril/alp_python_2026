@@ -13,4 +13,7 @@ elif opcao == 2:
 elif opcao == 3:
     print(f'O resultado da multiplicação é {n1*n2}')
 elif opcao == 4:
-    print(f'O resultado da divisão é {n1/n2}')
+    if n2 == 0:
+        print('Essa divisão é impossivel')
+    else:
+        print(f'O resultado da divisão é {n1/n2}')
