@@ -3,9 +3,8 @@ n2 = int(input('Segundo número'))
 
 print('''1. Média ponderada, pesos 2 e 3
 2. Quadrado da soma dos 2 números
-3. Cubo do menor número
-Escolha uma opção:''')
-opcao=input('>')
+3. Cubo do menor número''')
+opcao=input('Escolha uma opção:')
 
 if opcao == '1':
     print(f'A média ponderada é {(n1*2+n2*3)/(2+3)}')
