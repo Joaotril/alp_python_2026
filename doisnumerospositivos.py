@@ -1,5 +1,5 @@
-n1 = int(input('Primeiro número'))
-n2 = int(input('Segundo número'))
+n1 = int(input('Primeiro número:'))
+n2 = int(input('Segundo número:'))
 
 print('''1. Média ponderada, pesos 2 e 3
 2. Quadrado da soma dos 2 números
