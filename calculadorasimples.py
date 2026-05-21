@@ -2,8 +2,15 @@ print('''Calculadora simples
 1.Soma
 2.Subtração
 3.Multiplicação
-4.Divisão''')
+4.Divisão
+0.Sair''')
 opcao = float(input('Selecione a operação: '))
+while opcao <0 or opcao > 4:
+    print('Opção inválida')
+    opcao = float(input('Selecione a operação: '))
+if opcao == 0:
+    print('Saindo...')
+    exit()
 n1 = float(input('Primeiro número: '))
 n2 = float(input('Segundo número: '))
 if opcao == 1:
